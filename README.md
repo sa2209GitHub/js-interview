@@ -11,3 +11,5 @@ JavaScript Tasks for Interview
 [ 4. Make setTimeout() work properly ](./tasks/make_settimeout_work_properly.js)
 
 [ 5. Check wheter a string is a palindrome ](./tasks/check_wheter_a_string_is_a_palindrome.js)
+
+[ 6. Display fibonacci sequence using recursion ](./tasks/display_fibonacci_sequence_using_recursion.js)
