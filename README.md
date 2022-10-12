@@ -9,3 +9,5 @@ JavaScript Tasks for Interview
 [ 3. Find maximum number in array ](./tasks/find_maximum_number_in_array.js)
 
 [ 4. Make setTimeout() work properly ](./tasks/make_settimeout_work_properly.js)
+
+[ 5. Check wheter a string is a palindrome ](./tasks/check_wheter_a_string_is_a_palindrome.js)

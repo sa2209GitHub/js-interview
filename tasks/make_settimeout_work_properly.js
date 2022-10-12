@@ -31,3 +31,12 @@ for (var i = 0; i < 3; i++) {
         console.log(i);
     }, 0);})(i);
 };
+
+// Fourth solution
+const foo = (counter) => {
+    console.log(counter);
+};
+
+for (var i = 0; i < 3; i++); {
+    setTimeout(() => foo(i), 0);
+};
