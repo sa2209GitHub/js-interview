@@ -14,7 +14,7 @@ const displayFibonacciSequence = positiveInteger => {
 };
 
 for (let i = 0; i < 12; i++) {
-    console.log(fibonacciSeries.push(displayFibonacciSequence(i)));
+    console.log(fibonacciSequence.push(displayFibonacciSequence(i)));
 };
 
 console.log(fibonacciSequence);
