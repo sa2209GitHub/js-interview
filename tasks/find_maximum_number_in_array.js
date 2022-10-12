@@ -1,7 +1,7 @@
 /**
  *  Task:
  *      Find maximum
- *      Number in Array
+ *      number in array
  */
 
 const array = [-1, 0, -8, 22, 8, 3, 14, 23];
@@ -17,6 +17,8 @@ const findMax = array => {
     for (let i = 1; i < array.length; i++) {
         if (array[i] > max)
             max = array[i];
+        // OR:
+        // max = array[i] > max ? array[i] : max;
     };
 
     return max;
