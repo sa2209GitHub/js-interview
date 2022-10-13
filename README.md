@@ -13,3 +13,5 @@ JavaScript Tasks for Interview
 [ 5. Check wheter a string is a palindrome ](./tasks/check_wheter_a_string_is_a_palindrome.js)
 
 [ 6. Display fibonacci sequence using recursion ](./tasks/display_fibonacci_sequence_using_recursion.js)
+
+[ 7. Override 'this' in .call(), .apply() and .bind() functions ](./tasks/override_this_in_call_apply_and_bind_functions.js)
