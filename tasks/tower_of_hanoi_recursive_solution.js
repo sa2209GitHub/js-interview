@@ -16,11 +16,11 @@ const moveDisk = (from, to) => {
     console.log('Destination:', destination, destination.length);
 };
 
-const moveTower = (qty, from, to, buff) => {
+const moveTower = (qty, from, to, using) => {
     if (qty > 0) {
-        moveTower(qty - 1, from, buff, to);
+        moveTower(qty - 1, from, using, to);
         moveDisk(from, to);
-        moveTower(qty - 1, buff, to, from);
+        moveTower(qty - 1, using, to, from);
     };
 };
 
