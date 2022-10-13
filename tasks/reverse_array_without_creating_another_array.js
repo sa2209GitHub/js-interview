@@ -1,6 +1,6 @@
 /**
  *  Task:
- *      Reverse array
+ *      Reverse Array
  *      without creating
  *      another array
  */

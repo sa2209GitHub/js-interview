@@ -1,7 +1,7 @@
 /**
  *  Task:
- *      Check wheter a string
- *      is a palindrome
+ *      Check wheter a String
+ *      is a Palindrome
  */
 
 // First solution

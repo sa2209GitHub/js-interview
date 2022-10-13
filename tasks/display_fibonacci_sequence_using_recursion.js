@@ -1,7 +1,7 @@
 /**
  *  Task:
- *      Display fibonacci sequence
- *      using recursion
+ *      Display Fibonacci Sequence
+ *      using Recursion
  */
 
 const fibonacciSequence = []

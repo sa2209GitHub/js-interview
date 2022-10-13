@@ -1,8 +1,8 @@
 /**
  *  Task:
  *      Print the numbers
- *      under the main diagonal
- *      of the matrix
+ *      under the Main Diagonal
+ *      of the Matrix
  */
 
 const matrix = [

@@ -15,3 +15,5 @@ JavaScript Tasks for Interview
 [ 6. Display Fibonacci Sequence using Recursion ](./tasks/display_fibonacci_sequence_using_recursion.js)
 
 [ 7. Override 'this' in .call(), .apply() and .bind() functions ](./tasks/override_this_in_call_apply_and_bind_functions.js)
+
+[ 8. Tower of Hanoi. Recursive solution ](./tasks/tower_of_hanoi_recursive_solution.js)
