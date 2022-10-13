@@ -21,3 +21,5 @@ JavaScript Tasks for Interview
 [ 9.    Declarative, functional and prototypal Inheritance ](./tasks/declarative_functional_and_prototypal_inheritance.js)
 
 [ 10.   Primitive and Reference Data Types in JavaScript ](./tasks/primitive_and_reference_data_types_in_javascript.js)
+
+[ 11.   Closures ](./tasks/closures.js)

@@ -53,9 +53,9 @@ console.log(undef1, undef2, '\n');
 console.log(counter++, 'primitive data type:', typeof BigInt(1000));
 const big1 = BigInt(99);
 const big2 = BigInt(9999);
-const big3 = BigInt(999999);
-const big4 = BigInt(99999999);
-const big5 = BigInt(9999999999);
+const big3 = 999999n;
+const big4 = 99999999n;
+const big5 = 9999999999n;
 const big6 = 999999999999n;
 console.log(big1, big2, big3, big4, big5, big6, '\n');
 
