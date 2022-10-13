@@ -19,3 +19,5 @@ JavaScript Tasks for Interview
 [ 8.    Tower of Hanoi (recursive solution) ](./tasks/tower_of_hanoi_recursive_solution.js)
 
 [ 9.    Declarative, functional and prototypal Inheritance ](./tasks/declarative_functional_and_prototypal_inheritance.js)
+
+[ 10.   Primitive and Reference Data Types in JavaScript ](./tasks/primitive_and_reference_data_types_in_javascript.js)
