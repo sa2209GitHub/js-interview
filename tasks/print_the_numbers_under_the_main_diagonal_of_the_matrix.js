@@ -1,5 +1,5 @@
 /**
- *  Task
+ *  Task:
  *      Print the numbers
  *      under the main diagonal
  *      of the matrix
