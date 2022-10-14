@@ -82,10 +82,18 @@ const arr = [
     'second',
     'third'
 ];
+const map = new Map([['pi', Math.PI]]);
+const set = new Set(['A', 'B', 'C', 'D']);
+const wmap = new WeakMap();
+const wset = new WeakSet();
+
 console.log(typeof(obj1), ':', obj1);
 console.log(typeof(obj2), ':', obj2);
-console.log(typeof(arr), ':', arr, '\n');
-
+console.log(typeof(arr), ':', arr);
+console.log(typeof(map), ':', map);
+console.log(typeof(set), ':', set);
+console.log(typeof(wmap), ':', wmap);
+console.log(typeof(wset), ':', wset, '\n');
 
 // Function
 console.log(counter++, 'reference data type:', typeof(function foo(){}));

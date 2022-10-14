@@ -23,3 +23,5 @@ JavaScript Tasks for Interview
 [ 10.   Primitive and Reference Data Types in JavaScript ](./tasks/primitive_and_reference_data_types_in_javascript.js)
 
 [ 11.   Closures ](./tasks/closures.js)
+
+[ 12.   Merge overlapping Intervals in a non-empty Array ](./tasks/merge_overlapping_intervals_in_a_non-empty_array.js)
