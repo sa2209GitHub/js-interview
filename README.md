@@ -25,3 +25,5 @@ JavaScript Tasks for Interview
 [ 11.   Closures ](./tasks/closures.js)
 
 [ 12.   Merge overlapping Intervals in a non-empty Array ](./tasks/merge_overlapping_intervals_in_a_non-empty_array.js)
+
+[ 13.   Best Time to BUY and SELL Stock ](./tasks/best_time_to_buy_and_sell_stock.js)

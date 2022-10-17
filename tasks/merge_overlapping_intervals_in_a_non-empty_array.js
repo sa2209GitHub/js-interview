@@ -10,6 +10,7 @@ const intervals3 = [ [2, 3], [1, 4], [6, 8], [5, 7], [11, 12], [8, 10] ];
 const intervals4 = [ [1, 3], [2, 6], [8, 10], [15, 18] ];
 const intervals5 = [ [1, 4], [4, 5] ];
 const intervals6 = [ [11, 12], [2, 3], [5, 7], [1, 4], [8, 10], [6, 8] ];
+const intervals7 = [ [11, 32] ];
 
 function mergeOverlappingIntervals(intervals) {
     if (intervals.length === 1) {
@@ -24,7 +25,8 @@ function mergeOverlappingIntervals(intervals) {
         let recent = result[result.length -1];
 
         if (recent[1] >= interval[0]) {
-            recent[1] = Math.max(recent[1], interval[1]);
+            // recent[1] = Math.max(recent[1], interval[1]);
+            recent[1] = recent[1] > interval[1] ? recent[1] : interval[1];
         } else {
             result.push(interval);
         };
@@ -38,3 +40,4 @@ console.log(mergeOverlappingIntervals(intervals3));
 console.log(mergeOverlappingIntervals(intervals4));
 console.log(mergeOverlappingIntervals(intervals5));
 console.log(mergeOverlappingIntervals(intervals6));
+console.log(mergeOverlappingIntervals(intervals7));
