@@ -35,3 +35,5 @@ JavaScript Tasks for Interview
 [ 16.   Best Time to BUY and SELL stock (v2) ](./tasks/best_time_to_buy_and_sell_stock._v2.js)
 
 [ 17.   Brick Wall ](./tasks/brick_wall.js)
+
+[ 18.   Intersection of Arrays ](./tasks/intersection_of_arrays.js)
