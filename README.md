@@ -37,3 +37,5 @@ JavaScript Tasks for Interview
 [ 17.   Brick Wall ](./tasks/brick_wall.js)
 
 [ 18.   Intersection of Arrays ](./tasks/intersection_of_arrays.js)
+
+[ 19.   First Unique Character in a String ](./tasks/first_unique_character_in_a_string.js)
