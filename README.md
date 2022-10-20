@@ -39,3 +39,5 @@ JavaScript Tasks for Interview
 [ 18.   Intersection of Arrays ](./tasks/intersection_of_arrays.js)
 
 [ 19.   First Unique Character in a String ](./tasks/first_unique_character_in_a_string.js)
+
+[ 20.   Nimber of Islands ](./tasks/number_of_islands.js)
