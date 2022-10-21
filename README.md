@@ -2,7 +2,7 @@
 
 JavaScript Tasks for Interview
 
-[ 1.    Print the numbers under the Main Diagonal of the Matrix ](./tasks/print_the_numbers_under_the_main_diagonal_of_the_matrix.js)
+[ 1.    Print the Numbers under the Main Diagonal of the Matrix ](./tasks/print_the_numbers_under_the_main_diagonal_of_the_matrix.js)
 
 [ 2.    Reverse Array without creating another array ](./tasks/reverse_array_without_creating_another_array.js)
 
@@ -18,7 +18,7 @@ JavaScript Tasks for Interview
 
 [ 8.    Tower of Hanoi (recursive solution) ](./tasks/tower_of_hanoi_recursive_solution.js)
 
-[ 9.    Declarative, functional and prototypal Inheritance ](./tasks/declarative_functional_and_prototypal_inheritance.js)
+[ 9.    Declarative, functional and Prototypal Inheritance ](./tasks/declarative_functional_and_prototypal_inheritance.js)
 
 [ 10.   Primitive and Reference Data Types in JavaScript ](./tasks/primitive_and_reference_data_types_in_javascript.js)
 
@@ -47,3 +47,5 @@ JavaScript Tasks for Interview
 [ 22.   Peak Index of Mountain Array ](./tasks/peak_index_in_mountain_array.js)
 
 [ 23.   Fisher-Yates Shuffle ](./tasks/fisher_yates_shuffle.js)
+
+[ 24.   Palindrome Substring ](./tasks/palindrome_substring.js)
