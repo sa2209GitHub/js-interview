@@ -13,6 +13,7 @@ const arr6 = [9, 7, 6, 3, 2, 1];
 const arr7 = [1, 2, 3, 4, 3, 2, 1];
 const arr8 = [11, 13, 14, 15, 6, 4, 2];
 const arr9 = [10, 9, 8, 7, 6];
+const arr10 = [11, 12, 13, 14, 15, 16, 15, 14, 13];
 
 const peakIndexInMountainArray = (array) => {
     let start = 0;
@@ -20,6 +21,8 @@ const peakIndexInMountainArray = (array) => {
 
     while (start < end) {
         let mid = Math.floor((start + end) / 2);
+
+        console.log({s: array[start], m: array[mid], e: array[end], start, mid, end});
 
         if (array[mid] < array[mid + 1]) {
             start = mid + 1;
@@ -40,3 +43,4 @@ console.log(arr6, peakIndexInMountainArray(arr6));
 console.log(arr7, peakIndexInMountainArray(arr7));
 console.log(arr8, peakIndexInMountainArray(arr8));
 console.log(arr9, peakIndexInMountainArray(arr9));
+console.log(arr10, peakIndexInMountainArray(arr10));

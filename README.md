@@ -45,3 +45,5 @@ JavaScript Tasks for Interview
 [ 21.   Binary Search in Rotated Sorted Array ](./tasks/searvh_in_rotated_sorted_array.js)
 
 [ 22.   Peak Index of Mountain Array ](./tasks/peak_index_in_mountain_array.js)
+
+[ 23.   Fisher-Yates Shuffle ](./tasks/fisher_yates_shuffle.js)
