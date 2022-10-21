@@ -43,3 +43,5 @@ JavaScript Tasks for Interview
 [ 20.   Nimber of Islands ](./tasks/number_of_islands.js)
 
 [ 21.   Binary Search in Rotated Sorted Array ](./tasks/searvh_in_rotated_sorted_array.js)
+
+[ 22.   Peak Index of Mountain Array ](./tasks/peak_index_in_mountain_array.js)
