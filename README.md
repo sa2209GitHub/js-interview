@@ -41,3 +41,5 @@ JavaScript Tasks for Interview
 [ 19.   First Unique Character in a String ](./tasks/first_unique_character_in_a_string.js)
 
 [ 20.   Nimber of Islands ](./tasks/number_of_islands.js)
+
+[ 21.   Binary Search in Rotated Sorted Array ](./tasks/searvh_in_rotated_sorted_array.js)
