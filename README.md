@@ -52,4 +52,4 @@ JavaScript Tasks for Interview
 
 [ 25.   Longest Palindrome Subsring with Manacher's Algorithm](./tasks/longest_palindrome_substring_with_manachers_algorithm.js)
 
-[ 26.   Is Palindrome Number ](./tasks/is_palindrome_numbers.js)
+[ 26.   Is Palindrome Number ](./tasks/is_palindrome_number.js)
