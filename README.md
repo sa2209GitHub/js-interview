@@ -55,3 +55,5 @@ JavaScript Tasks for Interview
 [ 26.   Is Palindrome Number ](./tasks/is_palindrome_number.js)
 
 [ 27.   How to make an Integer from Float ](./tasks/how_to_make_an_integer_from_float.js)
+
+[ 28.   How to check if Number is Integer ](./tasks/how_to_check_if_number_is_integer.js)
