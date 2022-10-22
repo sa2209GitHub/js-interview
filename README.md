@@ -51,3 +51,5 @@ JavaScript Tasks for Interview
 [ 24.   Longest Palindrome Substring ](./tasks/longest_palindrome_substring.js)
 
 [ 25.   Longest Palindrome Subsring with Manacher's Algorithm](./tasks/longest_palindrome_substring_with_manachers_algorithm.js)
+
+[ 26.   Palindrome Numbers ](./tasks/palindrome_numbers.js)
