@@ -1,6 +1,7 @@
 /**
  *  Task:
- *      Palindrome Substring
+ *      Longest Palindrome
+ *      Substring
  */
 
 const string1 = 'babad';        // 'bob' | 'aba'

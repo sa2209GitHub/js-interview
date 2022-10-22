@@ -1,1 +1,1 @@
-2
+dromicString(str6));

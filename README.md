@@ -48,4 +48,6 @@ JavaScript Tasks for Interview
 
 [ 23.   Fisher-Yates Shuffle ](./tasks/fisher_yates_shuffle.js)
 
-[ 24.   Palindrome Substring ](./tasks/palindrome_substring.js)
+[ 24.   Longest Palindrome Substring ](./tasks/longest_palindrome_substring.js)
+
+[ 25.   Longest Palindrome Subsring with Manacher's Algorithm](./tasks/longest_palindrome_substring_with_manachers_algorithm.js)
