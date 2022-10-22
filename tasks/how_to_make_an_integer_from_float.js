@@ -1,7 +1,7 @@
 /**
  *  Task:
  *      How to make
- *      an Integer from float
+ *      an Integer from Float
  */
 
 const floatNumber = 123.456789;
@@ -30,6 +30,6 @@ console.log('5. Bitwise OR', floatNumber);
 console.log('   floatNumber | 0 = ', floatNumber | 0, '\n');
 
 // 5. Bitwise NOT
-console.log('5. Bitwise NOT', floatNumber);
-console.log('   ~ floatNumber = ', -~ floatNumber);
-console.log('   ~~~2.0 =', ~~ 2.0)
+console.log('6. Bitwise NOT', floatNumber);
+console.log('   ~~ floatNumber = ', ~~ floatNumber);
+console.log('   ~~ 2.0 =', ~~ 2.0, '\n');

@@ -53,3 +53,5 @@ JavaScript Tasks for Interview
 [ 25.   Longest Palindrome Subsring with Manacher's Algorithm](./tasks/longest_palindrome_substring_with_manachers_algorithm.js)
 
 [ 26.   Is Palindrome Number ](./tasks/is_palindrome_number.js)
+
+[ 27.   How to make an Integer from Float ](./tasks/how_to_make_an_integer_from_float.js)
