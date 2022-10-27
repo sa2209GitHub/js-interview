@@ -57,3 +57,5 @@ JavaScript Tasks for Interview
 [ 27.   How to make an Integer from Float ](./tasks/how_to_make_an_integer_from_float.js)
 
 [ 28.   How to check if Number is Integer ](./tasks/how_to_check_if_number_is_integer.js)
+
+[ 29.   Sudoku Solver ](./tasks/sudoku_solver.js)
