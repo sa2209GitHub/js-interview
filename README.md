@@ -63,3 +63,5 @@ JavaScript Tasks for Interview
 [ 30.   Set Matrix Zeros ](./tasks/set_matrix_zeros.js)
 
 [ 31.   Distance to Closest Person ](./tasks/distance_to_closest_person.js)
+
+[ 32.   Single Number ](./tasks/single_number.js)
