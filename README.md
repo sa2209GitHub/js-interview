@@ -61,3 +61,5 @@ JavaScript Tasks for Interview
 [ 29.   Sudoku Solver ](./tasks/sudoku_solver.js)
 
 [ 30.   Set Matrix Zeros ](./tasks/set_matrix_zeros.js)
+
+[ 31.   Distance to Closest Person ](./tasks/distance_to_closest_person.js)
