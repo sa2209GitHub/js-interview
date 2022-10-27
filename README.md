@@ -59,3 +59,5 @@ JavaScript Tasks for Interview
 [ 28.   How to check if Number is Integer ](./tasks/how_to_check_if_number_is_integer.js)
 
 [ 29.   Sudoku Solver ](./tasks/sudoku_solver.js)
+
+[ 30.   Set Matrix Zeros ](./tasks/set_matrix_zeros.js)
