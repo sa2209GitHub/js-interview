@@ -65,3 +65,5 @@ JavaScript Tasks for Interview
 [ 31.   Distance to Closest Person ](./tasks/distance_to_closest_person.js)
 
 [ 32.   Single Number ](./tasks/single_number.js)
+
+[ 33.   Remove Minimum Value from Array without changing Original Array ](./tasks/remove_minimum_value_from_array_without_changing_original_array.js)

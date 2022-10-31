@@ -34,7 +34,6 @@ const getFirstUniqueNumber2 = numbers => {
             uniqSum += current;
         };
 
-        console.log(uniqSum, numSum)
         numSum += current;
     };
     return uniqSum * 2 - numSum;
@@ -54,7 +53,6 @@ console.log(getFirstUniqueNumber(arr3));
 // console.log(getFirstUniqueNumber2(arr1));
 // console.log(getFirstUniqueNumber2(arr2));
 // console.log(getFirstUniqueNumber2(arr3));
-
 
 // console.log(getFirstUniqueNumber3(arr1));
 // console.log(getFirstUniqueNumber3(arr2));
