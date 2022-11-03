@@ -68,4 +68,6 @@ JavaScript Tasks for Interview
 
 [ 33.   Remove Minimum Value from Array without changing Original Array ](./tasks/remove_minimum_value_from_array_without_changing_original_array.js)
 
-[ 34.   Josephuis Survivor (v1) ](/tasks/josephus_survivor_v1.js)
+[ 34.   Josephus Survivor (v1) ](./tasks/josephus_survivor_v1.js)
+
+[ 35.   Josephus Survivor (v2) ](./tasks/josephus_survivor_v2.js)
