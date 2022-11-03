@@ -12,8 +12,6 @@ const arr4 = []                 // []
 const arr5 = [5]                // []
 
 const removeMinimumValue = (arr) => {
-    let result = [];
-
     const minIndex = arr.indexOf(Math.min(...arr))
 
     if (arr.length <= 1) {

@@ -67,3 +67,5 @@ JavaScript Tasks for Interview
 [ 32.   Single Number ](./tasks/single_number.js)
 
 [ 33.   Remove Minimum Value from Array without changing Original Array ](./tasks/remove_minimum_value_from_array_without_changing_original_array.js)
+
+[ 34.   Josephuis Survivor (v1) ](/tasks/josephus_survivor_v1.js)
