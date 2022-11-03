@@ -71,3 +71,5 @@ JavaScript Tasks for Interview
 [ 34.   Josephus Survivor (v1) ](./tasks/josephus_survivor_v1.js)
 
 [ 35.   Josephus Survivor (v2) ](./tasks/josephus_survivor_v2.js)
+
+[ 36.   Rot13 ](./tasks/rot13.js)
