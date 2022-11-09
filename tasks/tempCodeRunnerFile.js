@@ -1,3 +1,3 @@
-sage1));
-console.log(rot13Third(message2));
-console.log(rot13Third(message3
+ // if (current + k > items.length - 1) {
+        //     current = (items.length + k) - items.length
+        // }

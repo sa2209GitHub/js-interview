@@ -47,6 +47,11 @@ const rot13Third = message => {
     }).join('');
 };
 
+// Fourth solution
+const rot13Fourth = message => {
+    return message.replace(/[a-z]/gi, letter => String.fromCharCode(letter.charCodeAt(0) + (letter.toLowerCase() <= 'm' ? 13 : -13)));
+};
+
 console.log(rot13First(message1));
 console.log(rot13First(message2));
 console.log(rot13First(message3));
@@ -58,3 +63,7 @@ console.log(rot13Second(message3));
 console.log(rot13Third(message1));
 console.log(rot13Third(message2));
 console.log(rot13Third(message3));
+
+console.log(rot13Fourth(message1));
+console.log(rot13Fourth(message2));
+console.log(rot13Fourth(message3));
