@@ -22,8 +22,23 @@ function josephus(items, k) {
     return result;
 };
 
+// Solution with recursion (not ready yet)
+// function josephusRecursive(items, k) {
+//     const result = [];
+//     const current = (current + k - 1) % items.length
+//     result.push(...items.splice(current, 1))
+
+//     return items.length > 0 ? josephusRecursive(items, k) : result;
+// };
+
 console.log(josephus(data1[0], ...data1[1]))
 console.log(josephus(data2[0], ...data2[1]))
 console.log(josephus(data3[0], ...data3[1]))
 console.log(josephus(data4[0], ...data4[1]))
 console.log(josephus(data5[0], ...data5[1]))
+
+// console.log(josephusRecursive(data1[0], ...data1[1]))
+// console.log(josephusRecursive(data2[0], ...data2[1]))
+// console.log(josephusRecursive(data3[0], ...data3[1]))
+// console.log(josephusRecursive(data4[0], ...data4[1]))
+// console.log(josephusRecursive(data5[0], ...data5[1]))

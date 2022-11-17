@@ -73,3 +73,5 @@ JavaScript Tasks for Interview
 [ 35.   Josephus Permutation ](./tasks/josephus_permutation.js)
 
 [ 36.   Rot13 ](./tasks/rot13.js)
+
+[ 37.   Rorate a Matrix Clockwise ](./tasks/rotate_a_matrix_clockwise.js)
