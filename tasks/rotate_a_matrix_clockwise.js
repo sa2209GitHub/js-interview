@@ -60,6 +60,23 @@ const rotateMatrixClockwiseThird = matrix => {
     );
 };
 
+// Fourth solution
+const rotateMatrixClockwiseFourth = matrix => {
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < i; j++) {
+            let temp = matrix[i][j];
+            matrix[i][j] = matrix[j][i]
+            matrix[j][i] = temp
+        };
+    };
+
+    for (let k = 0; k < matrix.length; k++) {
+        matrix[k].reverse();
+    }
+
+    return matrix;
+};
+
 console.table(rotateMatrixClockwise(matrix1));
 console.table(rotateMatrixClockwise(matrix2));
 console.table(rotateMatrixClockwise(matrix3));
@@ -71,3 +88,7 @@ console.table(rotateMatrixClockwiseSecond(matrix3));
 console.table(rotateMatrixClockwiseThird(matrix1));
 console.table(rotateMatrixClockwiseThird(matrix2));
 console.table(rotateMatrixClockwiseThird(matrix3));
+
+console.table(rotateMatrixClockwiseFourth(matrix1));
+console.table(rotateMatrixClockwiseFourth(matrix2));
+console.table(rotateMatrixClockwiseFourth(matrix3));
