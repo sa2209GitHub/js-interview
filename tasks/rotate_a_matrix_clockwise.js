@@ -10,8 +10,8 @@ matrix1 = [
 ];
 
 matrix2 = [
-    [1, 2, 3, 4, 5],   // [21, 16, 11,  6, 1],
-    [6, 7, 8, 9, 10],   // [22, 17, 12,  7, 2],
+    [ 1,  2,  3,  4,  5],   // [21, 16, 11,  6, 1],
+    [ 6,  7,  8,  9, 10],   // [22, 17, 12,  7, 2],
     [11, 12, 13, 14, 15],   // [23, 18, 13,  8, 3],
     [16, 17, 18, 19, 20],   // [24, 19, 14,  9, 4],
     [21, 22, 23, 24, 25]    // [25, 20, 15, 10, 5]
@@ -38,15 +38,15 @@ const rotateMatrixClockwise = matrix => {
 
 // Second solution (mutate original array)
 const rotateMatrixClockwiseSecond = matrix => {
-    const L = matrix[0].length;
+    const L = matrix[0].length - 1;
 
-    for (let i = 0; i < Math.floor(L / 2); i++) {
-        for (j = i; j < L - i - 1; j++) {
+    for (let i = 0; i < L / 2; i++) {
+        for (j = i; j < L - i; j++) {
             let temp = matrix[i][j];
-            matrix[i][j] = matrix[L - 1 - j][i];
-            matrix[L - 1 - j][i] = matrix[L - 1 - i][L - 1 - j];
-            matrix[L - 1 - i][L - 1 - j] = matrix[j][L - 1 - i];
-            matrix[j][L - 1 - i] = temp;
+            matrix[i][j] = matrix[L - j][i];
+            matrix[L - j][i] = matrix[L - i][L - j];
+            matrix[L - i][L - j] = matrix[j][L - i];
+            matrix[j][L - i] = temp;
         };
     };
 
@@ -72,23 +72,41 @@ const rotateMatrixClockwiseFourth = matrix => {
 
     for (let k = 0; k < matrix.length; k++) {
         matrix[k].reverse();
-    }
+    };
 
     return matrix;
 };
 
-console.table(rotateMatrixClockwise(matrix1));
-console.table(rotateMatrixClockwise(matrix2));
-console.table(rotateMatrixClockwise(matrix3));
+// Fifth solution
+const rotateMatrixClockwiseFifth = matrix => {
+    const result = [];
+
+    for (let i = 0; i < matrix.length; i++) {
+        result.push([])
+        for (let j = 0; j < matrix[i].length; j++) {
+            result[i].push(matrix[matrix.length - 1 - j][i]);
+        };
+    };
+
+    return result;
+};
+
+// console.table(rotateMatrixClockwise(matrix1));
+// console.table(rotateMatrixClockwise(matrix2));
+// console.table(rotateMatrixClockwise(matrix3));
 
 console.table(rotateMatrixClockwiseSecond(matrix1));
 console.table(rotateMatrixClockwiseSecond(matrix2));
 console.table(rotateMatrixClockwiseSecond(matrix3));
 
-console.table(rotateMatrixClockwiseThird(matrix1));
-console.table(rotateMatrixClockwiseThird(matrix2));
-console.table(rotateMatrixClockwiseThird(matrix3));
+// console.table(rotateMatrixClockwiseThird(matrix1));
+// console.table(rotateMatrixClockwiseThird(matrix2));
+// console.table(rotateMatrixClockwiseThird(matrix3));
 
-console.table(rotateMatrixClockwiseFourth(matrix1));
-console.table(rotateMatrixClockwiseFourth(matrix2));
-console.table(rotateMatrixClockwiseFourth(matrix3));
+// console.table(rotateMatrixClockwiseFourth(matrix1));
+// console.table(rotateMatrixClockwiseFourth(matrix2));
+// console.table(rotateMatrixClockwiseFourth(matrix3));
+
+// console.table(rotateMatrixClockwiseFifth(matrix1));
+// console.table(rotateMatrixClockwiseFifth(matrix2));
+// console.table(rotateMatrixClockwiseFifth(matrix3));
